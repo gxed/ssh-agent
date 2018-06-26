@@ -6,11 +6,19 @@
   "gx": {
     "dvcsimport": "github.com/xanzy/ssh-agent"
   },
+  "gxDependencies": [
+    {
+      "author": "golang",
+      "hash": "QmW7VUmSvhvSGbYbdsh7uRjhGmsYkc9fL8aJ5CorxxrU5N",
+      "name": "go-crypto",
+      "version": "0.2.1"
+    }
+  ],
   "gxVersion": "0.12.1",
   "language": "go",
   "license": "",
   "name": "ssh-agent",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
 

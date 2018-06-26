@@ -1,0 +1,16 @@
+{
+  "author": "magik6k",
+  "bugs": {
+    "url": "https://github.com/gxed/ssh-agent"
+  },
+  "gx": {
+    "dvcsimport": "github.com/xanzy/ssh-agent"
+  },
+  "gxVersion": "0.12.1",
+  "language": "go",
+  "license": "",
+  "name": "ssh-agent",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "1.0.0"
+}
+
